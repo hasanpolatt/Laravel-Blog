@@ -12,12 +12,17 @@
 Git:
 
 ```sh
-git clone 
+git clone url
 ```
-For new branch
+New branch(git with command line)
 ```sh
-git clone 
+git checkout -b [branchname] 
 ```
+New branch(with Phpstorm)
+```sh
+VCS -> Git -> Branches -> New Branch 
+```
+
 
 
 
