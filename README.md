@@ -14,14 +14,19 @@ Git:
 ```sh
 git clone url
 ```
-New branch(git with command line)
+New branch(command line)
 ```sh
 git checkout -b [branchname] 
 ```
-New branch(with Phpstorm)
+New branch(Phpstorm)
 ```sh
 VCS -> Git -> Branches -> New Branch 
 ```
+## 
+
+> Proje geliştirilirken commit göndermek için.
+>>  VCS -> Git -> Commit File
+> > > İlgili commitimizi gönderim Branch'e pushluyoruz.
 
 
 
