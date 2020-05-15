@@ -7,7 +7,7 @@
 
 
 
-## Installation
+## Usage
 
 Git:
 
@@ -26,8 +26,8 @@ VCS -> Git -> Branches -> New Branch
 
 > Proje geliştirilirken commit göndermek için.
 >>  VCS -> Git -> Commit File
-> > > İlgili commitimizi gönderim Branch'e pushluyoruz.
-
+> > > İlgili commitimizi gönderip Branch'e pushluyoruz.
+> > > > Commitler Branche  pushlandıktan sonra Merge Request oluşturuyoruz.
 
 
 
