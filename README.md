@@ -14,6 +14,10 @@ Git:
 ```sh
 git clone 
 ```
+For new branch
+```sh
+git clone 
+```
 
 
 
