@@ -28,6 +28,7 @@ VCS -> Git -> Branches -> New Branch
 >>  VCS -> Git -> Commit File
 > > > İlgili commitimizi gönderip Branch'e pushluyoruz.
 > > > > Commitler Branche  pushlandıktan sonra Merge Request oluşturuyoruz.
+> > > > Diğer kullanıcılar masterdan güncellema almak zorundadırlar.Phpstormda (ctrl + T)
 
 
 
