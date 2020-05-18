@@ -7,14 +7,14 @@
 
 
 
-## Usage
+## Kullanım
 
-Git:
+Git clone ile projeyi cihazımıza alalım :
 
 ```sh
 git clone url
 ```
-New branch(command line)
+New branch oluşturarak projeye kendimizi dahil edelim.
 ```sh
 git checkout -b [branchname] 
 ```
@@ -44,7 +44,7 @@ Projenin çalışabilmesi için [npm](https://nodejs.org/en/download/) ve [compo
 >>  VCS -> Git -> Commit File
 > > > İlgili commitimizi gönderip Branch'e pushluyoruz.
 > > > > Commitler Branche  pushlandıktan sonra Merge Request oluşturuyoruz.
-> > > > Diğer kullanıcılar masterdan güncellema almak zorundadırlar.Phpstormda (ctrl + T)
+> > > > Diğer kullanıcılar masterdan güncellema almak zorundadırlar.Habersiz bir güncelleme oluşursa öncelikle phpstorm bizlere uyarı verir.Güncelleme aldıktan sonra push işlemi gerçekleştirilir.
 
 
 
