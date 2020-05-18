@@ -22,6 +22,9 @@ New branch(Phpstorm)
 ```sh
 VCS -> Git -> Branches -> New Branch 
 ```
+```sh
+Proje dosyalarını git add . ile versiyon sistemine ekleyelim.git pull origin master
+```
 ## 
 
 ## .gitignore
