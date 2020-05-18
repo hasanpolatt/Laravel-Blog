@@ -26,12 +26,12 @@ VCS -> Git -> Branches -> New Branch
 
 ## .gitignore
 
-Gitignore file ile projeyi daha verimli hale getirmek için gereksiz olan dosyaları yoksayarız.Projemizde yok sayılan dosyalar:
+.gitignore file ile projeyi daha verimli hale getirmek için gereksiz olan dosyaları yoks ayarız.Projemizde yok sayılan dosyalar:
 
 + node_modules
 + vendor
 
-Projenin çalışabilmesi için [npm](https://nodejs.org/en/download/) ve [composer](https://getcomposer.org/download/) yüklü olmalıdır.
+Projenin tüm dosyaları,paketleriyle çalışabilmesi için [npm](https://nodejs.org/en/download/) ve [composer](https://getcomposer.org/download/) yüklü olmalıdır.
 ```sh
 'npm install' ile package.json file okunup gerekli node paketleri yüklenir.
 ```
@@ -45,6 +45,7 @@ Projenin çalışabilmesi için [npm](https://nodejs.org/en/download/) ve [compo
 > > > İlgili commitimizi gönderip Branch'e pushluyoruz.
 > > > > Commitler Branche  pushlandıktan sonra Merge Request oluşturuyoruz.
 > > > > Diğer kullanıcılar masterdan güncellema almak zorundadırlar.Habersiz bir güncelleme oluşursa öncelikle phpstorm bizlere uyarı verir.Güncelleme aldıktan sonra push işlemi gerçekleştirilir.
+> > > > Yapacağımız her commitin sonuna ismimizi yazalım böylece proje incelendiğinde en son kimin projede nereye müdahele ettiği,nerede çalıştığı rahat bir şekilde anlaşılır.
 
 
 
