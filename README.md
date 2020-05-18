@@ -31,7 +31,8 @@ Proje dosyalarını git add . ile versiyon sistemine ekleyelim.git pull origin m
 Projenin tüm dosyaları,paketleriyle çalışabilmesi için [npm](https://nodejs.org/en/download/) ve [composer](https://getcomposer.org/download/) yüklü olmalıdır.
 ```sh
 'npm install' ile package.json file okunup gerekli node paketleri yüklenir.
-`````sh`
+```
+```sh
 'npm' is not recognized as an internal or external command,
 operable program or batch file. ``` Hatası alıyosanız kullandığınız ide'yi veya terminali npmi kurtuduktan sonra yeniden başlatın.
 ```sh
