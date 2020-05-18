@@ -24,6 +24,21 @@ VCS -> Git -> Branches -> New Branch
 ```
 ## 
 
+## .gitignore
+
+Gitignore file ile projeyi daha verimli hale getirmek için gereksiz olan dosyaları yoksayarız.Projemizde yok sayılan dosyalar:
+
++ node_modules
++ vendor
+
+Projenin çalışabilmesi için
+```sh
+'npm install' ile package.json file okunup gerekli node paketleri yüklenir.
+```
+```sh
+'composer install' ile vendor içerisindeki dosyalarımız yüklenir.
+##
+
 > Proje geliştirilirken commit göndermek için.
 >>  VCS -> Git -> Commit File
 > > > İlgili commitimizi gönderip Branch'e pushluyoruz.
@@ -31,6 +46,8 @@ VCS -> Git -> Branches -> New Branch
 > > > > Diğer kullanıcılar masterdan güncellema almak zorundadırlar.Phpstormda (ctrl + T)
 
 
+
+ 
 
 
 
