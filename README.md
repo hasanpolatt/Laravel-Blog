@@ -34,7 +34,9 @@ Projenin tüm dosyaları,paketleriyle çalışabilmesi için [npm](https://nodej
 ```
 ```sh
 'npm' is not recognized as an internal or external command,
-operable program or batch file. ``` Hatası alıyosanız kullandığınız ide'yi veya terminali npmi kurtuduktan sonra yeniden başlatın.
+operable program or batch file.
+```
+Hatası alıyosanız kullandığınız ide'yi veya terminali npmi kurtuduktan sonra yeniden başlatın.
 ```sh
 'composer install' ile vendor içerisindeki dosyalarımız yüklenir.
 ```
