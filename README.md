@@ -3,27 +3,33 @@ CRM Uygulaması Ayzasoft
 
 ## Kullanım
 
-Git clone ile projeyi cihazımıza alalım :
+Terminal kullananlar git clone ile projeyi cihazımıza almak için :
 
 ```sh
 git clone url
 ```
-New branch oluşturarak projeye kendimizi dahil edelim.
+Phpstorm kullananlar :
+```sh
+VCS->Get From Version Control
+```
+
+Terminalden yeni branch oluşturmak için :
 ```sh
 git checkout -b [branchname] 
 ```
-New branch(Phpstorm)
+Phpstorm üzeriden yeni branch oluşturmak için :
 ```sh
 VCS -> Git -> Branches -> New Branch 
 ```
+Tüm proje dosyalarını versiyonlamak için :
 ```sh
-Proje dosyalarını git add . ile versiyon sistemine ekleyelim.git pull origin master
+git add . veya phpstormdan kök dizine tıklayıp kısayol(CTRL+ALT+A) veya sağ tıklayıp git add..
 ```
 ## 
 
 ## .gitignore
 
-.gitignore file ile projeyi daha verimli hale getirmek için gereksiz olan dosyaları yoks ayarız.Projemizde yok sayılan dosyalar:
+Projeyi daha verimli hale getirmek için herkes tarafından aynı dizinlerde barınan(paket dosya dizinleri,ide bilgisini barındıran dosya, veritabanı dosyaları ..) gibi dosyalar .gitignore eklenir.Projemizde yok sayılan dosyalar:
 
 + node_modules
 + vendor
