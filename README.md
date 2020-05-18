@@ -33,7 +33,7 @@ Gitignore file ile projeyi daha verimli hale getirmek için gereksiz olan dosyal
 
 Projenin çalışabilmesi için
 ```sh
-'npm install' ile package.json file okunup gerekli node paketleri yüklenir.
+'npm install(https://nodejs.org/en/download/)' ile package.json file okunup gerekli node paketleri yüklenir.
 ```
 ```sh
 'composer install' ile vendor içerisindeki dosyalarımız yüklenir.
