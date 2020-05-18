@@ -31,12 +31,13 @@ Gitignore file ile projeyi daha verimli hale getirmek için gereksiz olan dosyal
 + node_modules
 + vendor
 
-Projenin çalışabilmesi için
+Projenin çalışabilmesi için [npm]((https://nodejs.org/en/download/)) ve [composer](https://getcomposer.org/download/) yüklü olmalıdır.
 ```sh
-'npm install(https://nodejs.org/en/download/)' ile package.json file okunup gerekli node paketleri yüklenir.
+'npm install' ile package.json file okunup gerekli node paketleri yüklenir.
 ```
 ```sh
 'composer install' ile vendor içerisindeki dosyalarımız yüklenir.
+```
 ##
 
 > Proje geliştirilirken commit göndermek için.
