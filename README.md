@@ -40,12 +40,7 @@ Hatası alıyosanız kullandığınız ide'yi veya terminali npmi kurtuduktan so
 ```sh
 'composer install' ile vendor içerisindeki dosyalarımız yüklenir.
 ```
-Vendora yeni bir paket yüklenmesi dahilinde hangi paketin yüklendiği
-```sh
-composer require paketismi
-```
-committe belirtilmeli ve ``` composer update ``` yapılmalıdır.
-##
+
 
 > Proje geliştirilirken commit göndermek için.
 >>  VCS -> Git -> Commit File
@@ -53,6 +48,13 @@ committe belirtilmeli ve ``` composer update ``` yapılmalıdır.
 > > > > Commitler Branche  pushlandıktan sonra Merge Request oluşturuyoruz.
 > > > > Diğer kullanıcılar masterdan güncellema almak zorundadırlar.Habersiz bir güncelleme oluşursa öncelikle phpstorm bizlere uyarı verir.Güncelleme aldıktan sonra push işlemi gerçekleştirilir.
 > > > > > Yapacağımız her commitin sonuna ismimizi yazalım böylece proje incelendiğinde en son kimin projede nereye müdahele ettiği,nerede çalıştığı rahat bir şekilde anlaşılır.
+
+Vendora yeni bir paket yüklenmesi dahilinde hangi paketin yüklendiği
+```sh
+composer require paketismi
+```
+committe belirtilmeli ve ``` composer update ``` yapılmalıdır.
+##
 
 ## Temel git komutları
 
