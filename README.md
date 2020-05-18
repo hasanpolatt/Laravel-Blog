@@ -44,7 +44,7 @@ Vendora yeni bir paket yüklenmesi dahilinde hangi paketin yüklendiği
 ```sh
 composer require paketismi
 ```
-committe belirtilmeli ve ```sh composer update ``` yapılmalıdır.
+committe belirtilmeli ve ``` composer update ``` yapılmalıdır.
 ##
 
 > Proje geliştirilirken commit göndermek için.
