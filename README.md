@@ -40,7 +40,11 @@ Hatası alıyosanız kullandığınız ide'yi veya terminali npmi kurtuduktan so
 ```sh
 'composer install' ile vendor içerisindeki dosyalarımız yüklenir.
 ```
-Vendora yeni bir paket yüklenmesi dahilinde hangi paketin yüklendiği ilgili committe belirtilmeli ve ```sh composer update ``` yapılmalıdır.
+Vendora yeni bir paket yüklenmesi dahilinde hangi paketin yüklendiği
+```sh
+composer require paketismi
+```
+committe belirtilmeli ve ```sh composer update ``` yapılmalıdır.
 ##
 
 > Proje geliştirilirken commit göndermek için.
